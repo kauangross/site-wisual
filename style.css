@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    color: white;
+    margin: 0px;
+}
+
+header {
+    background-color: brown;
+    display: flex;
+    min-height: 80px;
+}
+
+header > h1 {   
+    background-color: aqua;
+    font-size: 1.7em;
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    max-width: 300px;
+    margin-left: 28%;
+}
+
+nav > a {
+   margin: auto;
+   padding: 10px;
+}
