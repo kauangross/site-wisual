@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* CABEÇALHO */
+@import url(header.css);
+
+* {
+    color: white;
+    margin: 0px;
+}
