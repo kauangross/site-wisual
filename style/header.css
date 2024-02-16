@@ -4,10 +4,7 @@
 header {
     background-color: black;
     height: 15vh;
-
     display: flex;
-
-    flex-direction: row;
     align-items: center;
 }
 
