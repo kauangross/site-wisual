@@ -176,7 +176,7 @@ div#h1 {
     
 
     #search {
-        left: 80%;
+        left: 78%;
 
     }
     
@@ -196,11 +196,11 @@ div#h1 {
 
     #navigationmobile {
         display: flex;
-        background-color: grey;
-        padding: 5px;
+        background-color: #85746c;
+        padding: 5px 0px;
         margin: 135px auto 0px;
         width: 200vh; 
-        justify-content: center;
+        justify-content: right;
     }
 
     #navigationmobile img {
