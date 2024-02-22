@@ -176,8 +176,7 @@ div#h1 {
     
 
     #search {
-        left: 78%;
-
+        left: 74%;
     }
     
     #search > img {
@@ -185,7 +184,7 @@ div#h1 {
     }
 
     #search:hover {
-        left: 80%;
+        left: 74%;
         padding: 5px 9px 5px 9px;
         transition-duration: 300ms;
     }
@@ -197,8 +196,8 @@ div#h1 {
     #navigationmobile {
         display: flex;
         background-color: #85746c;
-        padding: 5px 0px;
-        margin: 135px auto 0px;
+        padding: 6px 0px;
+        margin: 125px auto 0px;
         width: 200vh; 
         justify-content: right;
     }
