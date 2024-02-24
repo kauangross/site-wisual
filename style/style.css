@@ -3,6 +3,8 @@
 /* CABEÇALHO */
 @import url(header.css);
 
+@import url(main.css);
+
 * {
     color: white;
     margin: 0px;
