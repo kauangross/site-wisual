@@ -1,6 +1,41 @@
 @charset "UTF-8";
 
-section#face {
+/* Imagem Principal */
+div#face {
     background-color: rgba(211, 211, 211, 0.423);
-    height: 590px;
+    padding-top: 10px;
+}
+
+div#face {
+    padding: 20px;
+}
+
+div#face img, div#face picture {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+/*  
+padding: 40px;
+padding: 10px 30px 10px 30px;
+*/
+div#section {
+    display: flex;   
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+div#section a.divisor-section {
+    padding-right: 100px;
+}
+
+div#section img:hover {
+    margin-bottom: 0px;
+}
+
+div#section-masc {
+    
 }
