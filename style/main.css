@@ -34,8 +34,23 @@ div#section a.divisor-section {
 
 div#section img:hover {
     margin-bottom: 0px;
+    border: 1px solid black;
 }
 
-div#section-masc {
-    
+
+
+div.section #img01 {
+    position: relative;
+}
+
+div#section-masc > p {
+    color: black;
+    position: absolute;
+    top: 2px;   
+    border: 1px solid black;
+    width: 310px;
+}
+
+div.section #img01:hover {
+    display: flex;
 }
