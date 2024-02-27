@@ -13,37 +13,55 @@
             <h1>Wisual Modas</h1>
         </div>
 
-        <div id="search">
+        <div id="search"> <!-- Ícone de pesquisa header -->
             <img src="imagens/lupa-p.png" alt="Pesquisar">
             <p>Pesquisar</p>
         </div>
 
-        <ul id="navigation">
+        <ul id="navigation"> <!-- Área de navegação com os links das redes sociais e contato com a loja -->
             <li><a href="https://wa.me/5551997927424" target="_blank"><img src="imagens/whatsapp-48.png" alt="Whatsapp"></a></li>
             <li><a href="https://www.instagram.com/lojawisual/" target="_blank"><img src="imagens/instagram-4-48.png" alt="Instagram"></a></li>
            <li><a href="https://www.google.com.br/maps/place/R.+Gen.+Ernesto+Dorneles,+220+-+Centro,+Igrejinha+-+RS,+95650-000/@-29.5751496,-50.7965688,17z/data=!3m1!4b1!4m6!3m5!1s0x951923b2ce28d90f:0xb5c8ae8aa8678574!8m2!3d-29.5751544!4d-50.7916979!16s%2Fg%2F11fj1nwmwq?entry=ttu" target="_blank"><img src="imagens/pin-8-48.png" alt="Localização"></a></li>
         </ul>
 
-        <ul id="navigationmobile">
+        <ul id="navigationmobile"> <!-- Header do mobile -adaptado- -->
             <li><a href="https://wa.me/5551997927424" target="_blank"><img src="imagens/whatsapp-48.png" alt="Whatsapp"></a></li>
             <li><a href="https://www.instagram.com/lojawisual/" target="_blank"><img src="imagens/instagram-4-48.png" alt="Instagram"></a></li>
             <li><a href="https://www.google.com.br/maps/place/R.+Gen.+Ernesto+Dorneles,+220+-+Centro,+Igrejinha+-+RS,+95650-000/@-29.5751496,-50.7965688,17z/data=!3m1!4b1!4m6!3m5!1s0x951923b2ce28d90f:0xb5c8ae8aa8678574!8m2!3d-29.5751544!4d-50.7916979!16s%2Fg%2F11fj1nwmwq?entry=ttu" target="_blank"><img src="imagens/pin-8-48.png" alt="Localização"></a></li>
         </ul>
     </header>
     <main>
-        <div id="face">
+        <div id="face">  <!-- Imagem principal (maior) da face do site -->
             <picture>
                 <source media="(max-width: 1180px)" srcset="imagens/teste-1000-1.png">
-                <img srcset="imagens/teste-1200.png">
+                <img srcset="imagens/teste-1200-1.png">
             </picture>
         </div>
-        <div id="section">
-            <a href="#" class="divisor-section" id="img01"><img src="imagens/masc-1_4.png" alt="" id="masc"></a>
-            <div id="section-masc">
-                <p>Masculino</p>
-            </div>
-            <a href="#" class="divisor-section" id="img02"><img src="imagens/fem-1_1.png" alt="" id="fem"></a>
-            <a href="#" id="img03"><img src="imagens/masc-1_4.png" alt="" id="inf"></a>
+        <div id="section">  <!-- Primeira imagem -link- da área de setores: masculino -->
+            <a href="pages/mascpage.html" id="img01">
+                <picture>
+                    <source media="(max-width: 700px)" srcset="imagens/masc-150px.png">
+                    <source media="(max-width: 870px)" srcset="imagens/masc-200px.png" class="img870px-a">
+                    <source media="(max-width: 1070px)" srcset="imagens/masc-250px.png">
+                    <img src="imagens/masc-1_4.png" alt="" id="masc">
+                </picture>
+            </a>
+            <a href="pages/fempage.html" id="img02"> <!-- Segunda imagem -link- da área de setores: feminino -->
+                <picture>
+                    <source media="(max-width: 700px)" srcset="imagens/fem-150px.png">
+                    <source media="(max-width: 870px)" srcset="imagens/fem-200px.png" class="img870px-b">
+                    <source media="(max-width: 1070px)" srcset="imagens/fem-250px.png">
+                    <img src="imagens/fem-1_1.png" alt="" id="fem">
+                </picture>
+            </a>
+            <a href="pages/kidspage.html" id="img03"> <!-- Tecreira imagem -link- da área de setores: infantil -->
+                <picture>
+                    <source media="(max-width: 700px)" srcset="imagens/masc-150px.png">
+                    <source media="(max-width: 870px)" srcset="imagens/masc-200px.png" class="img870px-c">
+                    <source media="(max-width: 1070px)" srcset="imagens/masc-250px.png">
+                    <img src="imagens/masc-1_4.png" alt="" id="masc">
+                </picture>
+            </a>
         </div>
     </main>
 </body>
