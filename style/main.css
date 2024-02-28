@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+main {
+    color: black;
+}
+
 /* Imagem Principal */
 div#face {
     background-color: rgba(211, 211, 211, 0.423);
@@ -16,13 +20,6 @@ div#face img, div#face picture {
     max-width: 100%;
 }
 
-@media (max-width: 501px) {
-    div#face img {
-        padding-top: 30px;
-    }
-}
-
-
 /*  
 padding: 40px;
 padding: 10px 30px 10px 30px;
@@ -30,6 +27,7 @@ padding: 10px 30px 10px 30px;
 
 div#section {
     position: relative;
+    height: 580px;
 }
 
 div#section #img01 {
@@ -54,12 +52,32 @@ div#section #img03 {
 div#section img:hover {
     border: 1px solid black;
     left: -1px;
+    opacity: 0.79;
 }
 
-.img870px-c {
 
-    left: 10%;
+#info-img01, #info-img02, #info-img03 {
+    display: none;
 }
+
+#img01:hover #info-img01 {
+    display: inline-block;
+    position: absolute;
+    top: 490px
+}
+
+#img02:hover #info-img02 {
+    display: inline-block;
+    position: absolute;
+    top: 490px;
+}
+
+#img03:hover #info-img03 {
+    display: inline-block;
+    position: absolute;
+    top: 490px;
+}
+
 
 @media (max-width: 1300px) {
 
@@ -77,18 +95,63 @@ div#section img:hover {
 }
 
 
-/* APAGAR DEPOIS  */
-@media (max-width: 1080px) {
+@media (max-width: 870px) {
+    div#section {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
 
     div#section #img01 {
-        left: 5%;
+        position: static;
     }
     
     div#section #img02 {
-        left: 36%;
+        position: static;
     }
     
     div#section #img03 {
-        left: 67%;
+        position: static;
+    }
+
+    a.divisor-img01 {
+        margin-right: 5%;
+    }
+
+    a.divisor-img02 {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    div#section {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#section #img01 {
+        position: static;
+    }
+    
+    div#section #img02 {
+        position: static;
+    }
+    
+    div#section #img03 {
+        position: static;
+    }
+
+    a.divisor-img01 {
+        margin-right: 3%;
+    }
+
+    a.divisor-img02 {
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 501px) {
+    div#face img {
+        padding-top: 30px;
     }
 }
