@@ -12,6 +12,7 @@ div#face {
 
 div#face {
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 div#face img, div#face picture {
@@ -31,22 +32,15 @@ div#section {
 }
 
 div#section #img01 {
-    position: absolute;
-    top: 50px;
-    left: 13.5%;
+    display: inline-flex;
+    margin-left: 27%;
+    
 }
 
 div#section #img02 {
-    position: absolute;
-    max-width: 100%;
-    top: 50px;
-    left: 39.5%;
-}
-
-div#section #img03 {
-    position: absolute;
-    top: 50px;
-    left: 65.5%;
+    display: inline-flex;
+    margin-left: 100px;
+    
 }
 
 div#section img:hover {
@@ -55,13 +49,12 @@ div#section img:hover {
     opacity: 0.79;
 }
 
-
 #info-img01, #info-img02, #info-img03 {
     display: none;
 }
 
 #img01:hover #info-img01 {
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 490px
 }
@@ -72,28 +65,17 @@ div#section img:hover {
     top: 490px;
 }
 
-#img03:hover #info-img03 {
-    display: inline-block;
-    position: absolute;
-    top: 490px;
-}
-
-
 @media (max-width: 1300px) {
 
     div#section #img01 {
-        left: 5%;
+        display: block;
+        text-align: center;
     }
     
     div#section #img02 {
-        left: 36%;
-    }
-    
-    div#section #img03 {
-        left: 67%;
+        
     }
 }
-
 
 @media (max-width: 870px) {
     div#section {
@@ -109,16 +91,8 @@ div#section img:hover {
     div#section #img02 {
         position: static;
     }
-    
-    div#section #img03 {
-        position: static;
-    }
 
     a.divisor-img01 {
-        margin-right: 5%;
-    }
-
-    a.divisor-img02 {
         margin-right: 5%;
     }
 }
@@ -136,16 +110,8 @@ div#section img:hover {
     div#section #img02 {
         position: static;
     }
-    
-    div#section #img03 {
-        position: static;
-    }
 
     a.divisor-img01 {
-        margin-right: 3%;
-    }
-
-    a.divisor-img02 {
         margin-right: 3%;
     }
 }

@@ -11,13 +11,14 @@ header {
 /* MARCA */
 div#h1 {
     position: absolute;
-    left: 6%;
+    left: 33.5%;
 }
 
 /* LUPA */
 #search {
     display: flex;
     position: absolute;
+    top: 15%;
     left: 46%;
     background-color: rgb(164, 164, 164);
     border-radius: 20px;
@@ -184,7 +185,8 @@ div#h1 {
     }
 
     #search:hover {
-        left: 73%;
+        top: 15%;
+        left: 20%;
         padding: 5px 9px 5px 9px;
         transition-duration: 300ms;
     }
@@ -199,7 +201,7 @@ div#h1 {
         padding: 6px 0px;
         margin: 125px auto 0px;
         width: 200vh; 
-        justify-content: right;
+        justify-content: center;
     }
 
     #navigationmobile img {
