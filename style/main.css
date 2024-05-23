@@ -147,7 +147,11 @@ div#section img:hover {
     }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 800px) {
+    div#face {
+        max-width: 110%;
+    }
+
     div#section {
         display: flex;
         justify-content: center;

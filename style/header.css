@@ -17,7 +17,7 @@ div#h1 {
 #search {
     position: absolute;
     display: flex;
-    left: 11%;
+    left: 18%;
     background-color: rgb(164, 164, 164);
     border-radius: 20px;
     padding: 6px 22px 6px 10px;
@@ -47,7 +47,7 @@ div#h1 {
 /* ---------- LINKS ---------- */
 #navigation {
     position: absolute;
-    right: 11%;
+    right: 18%;
 }
 
 #navigation > li {
@@ -61,6 +61,35 @@ div#h1 {
 #navigation img:hover {
     transform: translateY(-5px);
     transition-duration: 500ms;
+}
+
+@media (max-width: 1580px ) { /* Tela de ate 1580 px (lupa de pesquisa e links de navegação */ 
+    /* ---------- LUPA ---------- */
+    #search {
+        left: 11%;
+    }
+   
+
+    /* ---------- LINKS ---------- */
+    #navigation {
+        right: 11%;
+    }
+}
+
+@media (max-width: 1250px ) { /* Tela de ate 1250 px (lupa de pesquisa e links de navegação */ 
+    /* ---------- LUPA ---------- */
+    #search {
+        left: 11%;
+    }
+
+    /* ---------- LINKS ---------- */
+    #navigation {
+        right: 11%;
+    }
+}
+
+@media (max-width: 800px) {
+    
 }
 
 
