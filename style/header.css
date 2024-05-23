@@ -8,18 +8,16 @@ header {
     align-items: center;
 }
 
-/* MARCA */
+/* ---------- MARCA ---------- */
 div#h1 {
-    position: absolute;
-    left: 33.5%;
+    margin: auto;
 }
 
-/* LUPA */
+/* ---------- LUPA ---------- */
 #search {
-    display: flex;
     position: absolute;
-    top: 15%;
-    left: 46%;
+    display: flex;
+    left: 11%;
     background-color: rgb(164, 164, 164);
     border-radius: 20px;
     padding: 6px 22px 6px 10px;
@@ -41,18 +39,19 @@ div#h1 {
 
 #search:hover p {
     transition-duration: 2s;
-    display: block;
+    display: flex;
     color: black;
     text-decoration: underline;
 }
 
-/* LINKS */
+/* ---------- LINKS ---------- */
 #navigation {
-    margin: 0px 0px 0px 80%;
+    position: absolute;
+    right: 11%;
 }
 
 #navigation > li {
-    display: inline-flex;  
+    display: inline-flex;
 }
 
 #navigation img {
@@ -68,7 +67,7 @@ div#h1 {
 #navigationmobile {
     display: none;
 }
-
+/*
 #navigationmobile > li {
     display: inline-flex;  
 }
@@ -80,131 +79,4 @@ div#h1 {
 #navigationmobile img:hover {
     transform: translateY(-5px);
     transition-duration: 500ms;
-}
-
-/* TELA DE ATÉ 1000px */
-@media (max-width: 1000px) {
-    #search {
-        position: absolute;
-        left: 50%;
-        background-color: lightgrey;
-        border-radius: 20px;
-        padding: 4px 8px 4px 8px;
-    }
-    
-    #search > img {
-        max-width: .5cm;
-    }
-
-    #search > p {
-        display: none;
-    }
-
-    #search:hover {
-        display: flex;
-        position: absolute;
-        left: 45%;
-        background-color: white;
-        border-radius: 20px;
-        padding: 6px 22px 6px 10px;
-        transition-duration: 1s;
-    }
-
-    #search:hover p {
-        transition-duration: 3s;
-        display: block;
-        color: black;
-        text-decoration: underline;
-    }
-
-    #navigation {
-        margin: 0px 0px 0px 75%;
-    }
-}
-
-/* HEADER COM A TELA ATÉ 760PX - navigation */
-@media (max-width: 760px) {
-    #navigation {
-        margin: 0px 0px 0px 70%;
-    }
-}
-
-/* HEADER COM A TELA ATE 650px */
-@media (max-width: 650px) {
-    div#h1 {
-        font-size: 0.8em;
-    }
-    
-    #search {
-        position: absolute;
-        left: 48%;
-    }
-    
-    #search > img {
-        max-width: .5cm;
-    }
-
-    #search > p {
-        display: none;
-    }
-
-    #search:hover {
-        left: 48%;
-        padding: 6px 10px 6px 10px;
-        transition-duration: 300ms;
-    }
-
-    #search:hover p {
-        display: none;
-        padding: 2px;
-        margin: 0px;
-    }
-
-    #navigation {
-        margin: 0px 0px 0px 60%;
-    }
-
-    #navigation img {
-        width: 55%;
-    }
-}
-
-/* telas menores que 500px */
-@media (max-width: 500px) {
-    div#h1 {
-        font-size: 0.67em;
-    }
-    
-
-    #search {
-        left: 73%;
-    }
-    
-    #search > img {
-        max-width: .4cm;
-    }
-
-    #search:hover {
-        top: 15%;
-        left: 20%;
-        padding: 5px 9px 5px 9px;
-        transition-duration: 300ms;
-    }
-
-    #navigation {
-        display: none;
-    }
-
-    #navigationmobile {
-        display: flex;
-        background-color: #85746c;
-        padding: 6px 0px;
-        margin: 125px auto 0px;
-        width: 200vh; 
-        justify-content: center;
-    }
-
-    #navigationmobile img {
-        max-width: 44%;
-    }
-} 
+} */
